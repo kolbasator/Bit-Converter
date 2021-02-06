@@ -1,2 +1,3 @@
 # Bit-Converter
-May be not so simple bit converter
+Bit Converter,which supports 2,3,5,8,10,12 
+calculus systems.
