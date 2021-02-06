@@ -1,0 +1,4 @@
+C:\Users\777\Desktop\Projects\Bit-Converter\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\Bit-Converter\NUnitTestProject1\obj\Debug\netcoreapp3.1\NUnitTestProject1.csproj.CoreCompileInputs.cache

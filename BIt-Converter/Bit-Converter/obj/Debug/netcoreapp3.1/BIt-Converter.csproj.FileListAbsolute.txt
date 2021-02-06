@@ -1,0 +1,4 @@
+C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.csprojAssemblyReference.cache
+C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfo.cs
+C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.csproj.CoreCompileInputs.cache
