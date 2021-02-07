@@ -2,3 +2,16 @@ C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Con
 C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfoInputs.cache
 C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfo.cs
 C:\Users\777\Desktop\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.exe
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.deps.json
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.runtimeconfig.json
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.runtimeconfig.dev.json
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.dll
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\bin\Debug\netcoreapp3.1\BIt-Converter.pdb
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.csprojAssemblyReference.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfoInputs.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.AssemblyInfo.cs
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.csproj.CoreCompileInputs.cache
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.dll
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.pdb
+C:\Users\777\Desktop\Projects\Bit-Converter\BIt-Converter\BIt-Converter\obj\Debug\netcoreapp3.1\BIt-Converter.genruntimeconfig.cache

@@ -11,11 +11,15 @@ namespace Bit_Converter
         {
             if (number.System == 10)
                 return number;
-            double result = 0;
+            double wholePartNumber = 0;
+            double floatPartNumber = 0;
             string wholePart =number.WholePart;
+            string floatPart =number.FloatPart;
             foreach (char num in wholePart)
-                result = result * oldSystem + Char.GetNumericValue(num);
-            return new DecimalNumber(Convert.ToString(result));
+                wholePartNumber = wholePartNumber * oldSystem + Char.GetNumericValue(num); 
+            foreach (char num in floatPart)
+                floatPartNumber = floatPartNumber * oldSystem + Char.GetNumericValue(num);
+            return new DecimalNumber(Convert.ToString(wholePartNumber),Convert.ToString(floatPartNumber));
         }
         public static INumber ConvertTo(INumber numberForChange,int system)
         {
@@ -23,30 +27,34 @@ namespace Bit_Converter
                 return numberForChange;
             INumber number = ConvertToDecimal(numberForChange, numberForChange.System); 
             string wholePart = "";
-            int wholePartNumber = Convert.ToInt32(number.WholePart);
+            int wholePartNumber = Convert.ToInt32(number.WholePart); 
+            string floatPart = "";
+            int floatPartNumber = Convert.ToInt32(number.FloatPart);
             while (wholePartNumber > 0)
             {
                 wholePart = Convert.ToString(wholePartNumber % system) + wholePart;
                 wholePartNumber = wholePartNumber / system;
             }
+            while (floatPartNumber > 0)
+            {
+                floatPart = Convert.ToString(floatPartNumber % system) + floatPart;
+                floatPartNumber = floatPartNumber / system;
+            }
             INumber result = number;
             switch (system)
             {
                 case 2:
-                    result = new BinaryNumber(wholePart);
+                    result = new BinaryNumber(wholePart, floatPart);
                     break;
                 case 3:
-                    result = new TripleNumber(wholePart);
+                    result = new TripleNumber(wholePart, floatPart);
                     break;
                 case 5:
-                    result = new FiveFoldNumber(wholePart);
+                    result = new FiveFoldNumber(wholePart, floatPart);
                     break;
                 case 8:
-                    result = new OctalNumber(wholePart);
-                    break;
-                case 12:
-                    result = new TwelveDigitNumber(wholePart);
-                    break;
+                    result = new OctalNumber(wholePart, floatPart);
+                    break; 
             }
             return result;
 

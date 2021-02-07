@@ -8,15 +8,17 @@ namespace Bit_Converter
     {
         public int System { get; } = 5;
         public string WholePart { get; }
+        public string FloatPart { get; }
 
-        public FiveFoldNumber(string wholePart)
+        public FiveFoldNumber(string wholePart,string floatPart)
         {
             WholePart = wholePart;
+            FloatPart = floatPart;
         }
 
         public override string ToString()
         {
-            return WholePart;
+            return $"{WholePart}.{FloatPart}";
         }
     }
 }

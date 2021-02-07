@@ -7,17 +7,18 @@ namespace Bit_Converter
     public class DecimalNumber : INumber
     {
         public int System { get; } = 10;
-        public string WholePart { get; } 
+        public string WholePart { get; }
+        public string FloatPart { get; }
 
-        public DecimalNumber(string number)
+        public DecimalNumber(string wholePart, string floatPart)
         {
-            string[] parts = number.Split('.');
-            WholePart = parts[0]; 
+            WholePart = wholePart;
+            FloatPart = floatPart;
         }
 
         public override string ToString()
         {
-            return WholePart;
+            return $"{WholePart}.{FloatPart}";
         }
     }
 }

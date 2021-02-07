@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\777\\Desktop\\BIt-Converter\\BIt-Converter\\BIt-Converter.csproj",
+      "projectUniqueName": "C:\\Users\\777\\Desktop\\Projects\\Bit-Converter\\BIt-Converter\\BIt-Converter\\BIt-Converter.csproj",
       "projectName": "BIt-Converter",
-      "projectPath": "C:\\Users\\777\\Desktop\\BIt-Converter\\BIt-Converter\\BIt-Converter.csproj",
+      "projectPath": "C:\\Users\\777\\Desktop\\Projects\\Bit-Converter\\BIt-Converter\\BIt-Converter\\BIt-Converter.csproj",
       "packagesPath": "C:\\Users\\777\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\777\\Desktop\\BIt-Converter\\BIt-Converter\\obj\\",
+      "outputPath": "C:\\Users\\777\\Desktop\\Projects\\Bit-Converter\\BIt-Converter\\BIt-Converter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\777\\AppData\\Roaming\\NuGet\\NuGet.Config",
